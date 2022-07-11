@@ -7,11 +7,15 @@ h1 {
     Font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange {
     color: orange;
 }
 
-section {
+.flexible {
     display: flex;
 }
 
@@ -50,10 +54,42 @@ section {
 
 }
 
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
 .dream-big {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     height: 450px;
 
+}
+
+.full-width {
+    width: 40%;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.orio {
+    color: orange;
+}
+
+#full {
+    border-left: 7px solid tomato;
+}
+
+#baby {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
